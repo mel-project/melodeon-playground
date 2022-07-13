@@ -1,0 +1,39 @@
+[package]
+name = "melodeon-playground"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[dependencies]
+log = "0.4.17"
+wasm-logger = "0.2.0"
+web-sys = "0.3.58"
+wee_alloc = "0.4.5"
+# you can check the latest version here: https://crates.io/crates/yew
+yew = "0.19"
+melorun={version="0.5.3", default-features=false}
+anyhow="1"
+base64="0.13"
+lz4_flex={version="0.9", default-features=false}
+brotli="3"
+yew-hooks="0.1"
+smaz="0.1"
+closure="0.3"
+gloo-utils = "0.1.4"
+ansi-to-html="0.1"
+melodeon="0.5.9"
+colored="2"
+
+[profile.release]
+# less code to include into binary
+panic = 'abort'
+# optimization over all codebase ( better optimization, slower build )
+codegen-units = 1
+# optimization for size ( more aggressive )
+# opt-level = 'z'
+# optimization for size
+opt-level = 's'
+# link time optimization using using whole-program analysis
+lto = 'thin'
