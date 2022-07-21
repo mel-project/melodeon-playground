@@ -23,7 +23,7 @@ body {
   flex-direction: column;
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 800px) {
   .wrapper {
     flex-direction: row;
   }
