@@ -11,6 +11,7 @@ body {
   letter-spacing: -0.02em;
   padding: 0;
   margin: 0;
+  font-size: 90%;
 }
 
 .wrapper {
@@ -78,6 +79,10 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.repl-result {
+  word-wrap: break-word;
+}
+
 .repl-input {
   resize: none;
   flex-grow: 1;
@@ -95,4 +100,19 @@ body {
 .repl-input:focus-visible {
   outline: 1px dotted black !important;
   /* outline: unset; */
+}
+
+.env-pane {
+  border: 1px black solid;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+.env-pane textarea {
+  width: 100%;
+  height: min(20rem, 20vh);
+  box-sizing: border-box;
+  resize: none;
+  font-family: "PT Mono", "Consolas", monospace;
+  font-size: 100%;
 }
