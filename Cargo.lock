@@ -1170,9 +1170,9 @@ dependencies = [
 
 [[package]]
 name = "melorun"
-version = "0.6.3"
+version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "76bf35f0a2bb9c047be1a575982e0f810a10931eed456097d1978f8245746c4a"
+checksum = "4c3441ce32aa15fd2b5e84e062d8503a67fb4df5f42eab47750e5f10d8b04c13"
 dependencies = [
  "anyhow",
  "colored",
@@ -2062,9 +2062,9 @@ checksum = "a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f"
 
 [[package]]
 name = "stdcode"
-version = "0.1.7"
+version = "0.1.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "092644b1ca14624e86c4032dce7e0f6523fcae689a8aca9f4389807a7bf9b9d5"
+checksum = "e3391836b251929bfa3a7084fbe76fee6833b71214a48cf56e777115b4724867"
 dependencies = [
  "bincode",
  "hex",
@@ -2253,9 +2253,9 @@ dependencies = [
 
 [[package]]
 name = "themelio-structs"
-version = "0.2.6"
+version = "0.2.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "28c1a8914aeb9278ab28263c466dbe14cd204c7a36a35212f4f197bdd199a587"
+checksum = "108489af5a9ea0e59b0ed6ea4bc6889991aa71aa54d12fd087620bfc4f888533"
 dependencies = [
  "arbitrary",
  "derivative",
