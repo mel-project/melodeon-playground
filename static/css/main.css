@@ -42,7 +42,7 @@ button:hover {
 }
 
 .pane {
-  border: 2px solid black;
+  border: 1px solid black;
   flex-grow: 1;
   flex-basis: 50%;
   box-sizing: border-box;
