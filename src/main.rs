@@ -159,7 +159,7 @@ fn hello_world() -> Html {
                 }))
             }
             match runner.load_str(Path::new("."), code) {
-                Ok((result, t)) => {
+                Ok((result, t, _)) => {
                     log::debug!("result: {:?}", result);
                     first_res.set(Some((melorun::mvm_pretty(&result), format!("{:?}", t))));
                 }
