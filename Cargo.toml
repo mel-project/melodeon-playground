@@ -26,6 +26,7 @@ ansi-to-html= "0.1.0"
 melodeon= "0.5.10"
 colored= "2.0.0"
 serde_yaml = "0.8.26"
+getrandom = { version = "0.2", features = ["js"] }
 
 [profile.release]
 # less code to include into binary
